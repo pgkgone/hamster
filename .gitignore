@@ -6,7 +6,7 @@
 /workspace.xml
 # Rider ignored files
 /.idea.hamster.iml
-/projectSettingsUpdater.xml
+/projectSettingsUpdater.xmlgit branch -M main
 /contentModel.xml
 /modules.xml
 # Editor-based HTTP Client requests
