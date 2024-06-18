@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://d07p0ferr1r4h"]
+[gd_scene load_steps=3 format=3 uid="uid://d07p0ferr1r4h"]
 
 [ext_resource type="Texture2D" uid="uid://ja5a3md5fv3k" path="res://scenes/main_screen/Removal-484.png" id="1_qmmam"]
+[ext_resource type="Script" path="res://SteamController.cs" id="2_aywnx"]
 
 [node name="MainScreen" type="Control"]
 layout_mode = 3
@@ -37,3 +38,4 @@ grow_vertical = 2
 position = Vector2(0, 100)
 scale = Vector2(0.75, 0.75)
 texture = ExtResource("1_qmmam")
+script = ExtResource("2_aywnx")
